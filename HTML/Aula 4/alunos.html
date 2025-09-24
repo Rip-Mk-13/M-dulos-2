@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário dos alunos</title>
+</head>
+<body>
+    <div>
+        <h1>Matrículas abertas</h1>
+        <hr>
+        <p>Seja bem-vindo ao portal de matrículas Tech4Me</p>
+    </div>
+    <div>
+        <form action="http://localhost:3003/alunos" method="get">
+            <label for="nome">Nome</label> <br>
+            <input type="text" name="nome" placeholder="Digite o seu nome"> <br><br>
+            <label for="idade">Idade</label> <br>
+            <input type="number" name="idade" placeholder="Digite a sua idade"> <br><br>
+            <label for="sexo">Sexo</label> <br>
+            <input type="radio" name="sexo" value="fem"> <span>Feminino</span>
+            <input type="radio" name="sexo" value="mas"> <span>Masculino</span> <br><br>
+
+                <button value="submit">Enviar matrícula</button>
+        </form>
+    </div>
+</body>
+<style>
+    body{
+        font-size: large;
+    }
+</style>
+</html>

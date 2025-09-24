@@ -1,0 +1,24 @@
+.spinner{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 400px auto;
+}
+
+.spinner:hover{
+    animation-name: spinner;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes spinner {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(3240deg);
+    }
+}

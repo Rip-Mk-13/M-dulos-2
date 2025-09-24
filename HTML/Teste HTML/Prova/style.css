@@ -1,0 +1,23 @@
+
+.index{
+    font-size: xx-large;
+}
+
+.curriculo{
+    font-size: x-large;
+}
+
+.sobre{
+    font-size: x-large;
+}
+
+footer{
+    font-size: large;
+}
+
+tr, th{
+    padding: 20px;
+    width: 200px;
+    border-width: 2px;
+    
+}

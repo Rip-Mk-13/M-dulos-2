@@ -1,0 +1,22 @@
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    transition: background 0.5s;
+}
+
+/* Quando estiver em modo retrato(vertical) */
+@media (orientation: portrait) {
+    .container{
+        background-color: blue;
+    }
+}
+
+/* Quando estiver em modo paisagem(horizontal) */
+@media (orientation: landscape) {
+    .container{
+        background-color: greenyellow;
+    }
+}

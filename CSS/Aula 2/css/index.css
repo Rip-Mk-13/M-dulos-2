@@ -1,0 +1,9 @@
+/* Usar vírgula para incluir mais elementos na estilização */
+span, p{
+    color: brown;
+}
+
+.text-amarelo, .fundo-verde{
+    background-color: green;
+    color: yellow;
+}

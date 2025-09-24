@@ -1,0 +1,14 @@
+/*# acessar id*/
+/*. acessar class*/
+
+.p{
+    background-color: brown;
+}
+
+.aulaCss{
+    color: green;
+}
+
+#aulaCss{
+    color: blue;
+}

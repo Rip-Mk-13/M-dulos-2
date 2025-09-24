@@ -1,0 +1,23 @@
+#main{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    /* Alinha os itens flexíveis no centro horizontalmente */
+    /* justify-content: center; */
+    /* Alinha os itens flexíveis na direita horizontalmente */
+    /* justify-content: flex-end; */
+    /* Alinha os itens flexíveis na esquerda horizontalmente */
+    /* justify-content: flex-start; */
+    /* Exibe os itens flexíveis com espaço entre as linhas */
+    /* justify-content: space-between; */
+    /* Exibe os itens flexíveis com espaço antes, entre e depois das linhas */
+    /* justify-content: space-around; */
+    /* Exibe os itens flexíveis com espaço entre as linhas */
+    justify-content: space-between;
+}
+
+#main div{
+    width: 50px;
+    height: 50px;
+}

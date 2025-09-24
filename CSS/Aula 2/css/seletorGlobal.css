@@ -1,0 +1,41 @@
+/* Cada navegador têm medidas diferentes, logo, as alterações no "*" são relativas ao browser */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.seletorGlobalEx{
+    color: red;
+}
+
+p[id]{
+    color: blue;
+}
+
+/* Valor exato */
+imput[value="inicio123"]{
+    border: 2px solid red;
+}
+
+/* ^ Começa com */
+input[value^="inicio"]{
+    border: 2px solid red;
+}
+
+/* $ Termina com */
+input[value$="456"]{
+    border: 2px solid green;
+}
+
+/* * Contêm */
+input[value*="meio"]{
+    border: 2px solid cyan;
+}
+
+/* | Igual ou seguido de hífen */
+input[value|="br"]{
+    border: 2px solid yellow;
+}
+
+/* p, .seletorClass{  */
+    /* color: greenyellow;} */

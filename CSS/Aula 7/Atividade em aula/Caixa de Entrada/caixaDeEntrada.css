@@ -1,0 +1,29 @@
+.PC{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .PC{
+        display: flex;
+    }
+}
+
+table{
+    margin-left: 100px;
+}
+
+.Mobile{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .Mobile{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+}
+
+body{
+    font-size: x-large;
+}

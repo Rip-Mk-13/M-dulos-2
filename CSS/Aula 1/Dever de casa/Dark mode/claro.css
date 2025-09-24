@@ -1,0 +1,42 @@
+
+main{
+    font-size: larger;
+}
+
+th, tr{
+    border-radius: 30px;
+    border-width: 2px;
+    background-color: white;
+    width: 300px;
+}
+
+.table1{
+    border-radius: 30px;
+    border-width: 0px;  
+    position: absolute;
+    right: 550px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+button{
+    position: absolute;
+    right: 21px;
+    top: 40px;
+}
+
+hr{
+    border-color: black;
+}
+
+.r1{
+    position: absolute;
+    right: 500px;
+
+}    
+    
+body{
+    background-color: rgb(255, 237, 73);
+}

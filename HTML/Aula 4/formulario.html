@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body> 
+    <!-- get: recebe informação;  -->
+    <form action="http://localhost:3003/alunos" method="get">
+        <label for="cpfCnpj">CPF ou CNPJ</label> <br>
+        <input type="text" maxlength="14" name="nome" placeholder="Digite o CPF ou CNPJ"> <br><br>
+        <label for="senha">Senha</label> <br>
+        <input type="password" name="senha" placeholder="Digite sua senha"> <br><br>
+        <label for="idade">Idade</label> <br>
+        <input type="number" max="18" min="3" name="idade" placeholder="Digite sua idade"> <br><br>
+        
+        <div>
+            <label for="Time">Time</label> <br>
+            <input type="radio" name="Time" value="fla"> <span>Flamengo</span>
+            <input type="radio" name="Time" value="flu"> <span>Fluminense</span> <br><br>
+            <label for="dataComemorativa">Data comemorativa</label> <br>
+            <input type="radio" name="dataComemorativa"> <span>Natal</span>
+            <input type="radio" name="dataComemorativa"> <span>Pascoa</span>
+        </div> <br><br>
+
+        <input type="checkbox"> <p>Concordo com os termos de uso</p> <br><br>
+
+        <select name="estado" id="estado" size=2 required>
+            <option disabled>Selecione o Estado</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option>
+            <option value="ba">Bahia</option>
+        </select> <br><br>
+        
+        <textarea cols="50" rows="5"></textarea> <br><br>
+
+        <input type="button" value="enviar type button">
+        <input type="submit" value="enviar">
+        <button type="submit">Enviar o formulário</button>
+
+        <button>teste</button>
+    </form>
+</body>
+<style>
+    body{font-size: large;}
+</style>
+</html>

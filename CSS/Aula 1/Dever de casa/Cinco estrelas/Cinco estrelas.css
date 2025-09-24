@@ -1,0 +1,26 @@
+body{
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+table{
+    border-radius: 10px;
+    border-spacing: 3px;
+    padding: 1px;
+    font-size: xx-large;
+    padding: 5px; 
+    border-color: white;
+    border-width: 5px;
+    background-color: black;
+}
+
+tr, th{
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: green;
+}
+
+span{
+    color: yellow;
+}

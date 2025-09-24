@@ -1,0 +1,42 @@
+
+.amarelo{
+    background-color: #e0d200;
+    height: 400px;
+    animation-name: bandeira;
+    animation-duration: 9s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-play-state: forwards;
+}
+
+.azul{
+    background-color: #001ca1;
+    height: 200px;
+    animation-name: bandeira;
+    animation-duration: 8s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-play-state: forwards;
+}
+
+.vermelho{
+    background-color: #c31d27;
+    height: 200px;
+    animation-name: bandeira;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-play-state: forwards;
+}
+
+@keyframes bandeira{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 1900px;
+    }
+}
