@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caracter de Escape</title>
+</head>
+<body>
+    <button onclick="mostrarInformacoes()">Clique Aqui</button>
+
+    <script>
+        function mostrarInformacoes(){
+            var nome = prompt("Digite o seu nome");
+            var cidade = prompt("Digite a sua cidade");
+
+            var mensagem = "Informações inseridas pelo usuário são: \n\t" + nome + " e ele mora na cidade de: \n\t" + cidade
+
+            alert(mensagem);
+        }
+
+        function numerosReais(){
+            var valor = 12.30;
+
+            console.log(valor)
+        }
+
+        function booleanVar(){
+            var diaSemana = "Terça"
+
+            console.log(diaSemana)
+        }
+
+        function dataVar(){
+            var hoje = Date();
+
+            console.log(hoje);
+            console.log(typeof hoje);
+        }
+     
+        // booleanVar();
+        // dataVar();
+        // numerosReais();
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de dados</title>
+</head>
+<body>
+    <h1>Questionário de tipos de dados</h1> <hr>
+
+    <h2>Pergunta 1:</h2>
+    <p>Quanto é 23 + 97</p>
+    <button onclick="resposta1()">110</button>
+    <button onclick="erro1()">Cem</button> 
+
+    <br> <br> <br>
+
+    <h2>Pergunta 2</h2>
+    <p>Qual site é usado como correio digital?</p>
+    <button onclick="resposta2()">4shared</button>
+    <button onclick="erro2()">G-Mail</button>
+
+    <br> <br> <br>
+
+    <h2>Pergunta 3</h2>
+    <p>Qual a propriedade do tipo boolean?</p>
+    <button onclick="resposta3()">Um dado de verdadeiro ou falso</button>
+    <button onclick="erro3()">Um dado de somente números</button>
+
+    <script>
+        function resposta1(){
+            alert("Resposta correta \n Tipo: Vintage / String")
+        }
+        function erro1(){
+            alert("Resposta errada\n Tipo: String")
+        }
+
+        function resposta2(){
+            alert("Resposta errada \n Tipo Vintage / String")
+        }
+        function erro2(){
+            alert("Resposta correta \n Tipo Vintage / String")
+        }
+
+        function resposta3(){
+            alert("Resposta correta")
+        }
+        function erro3(){
+            alert("Resposta errada")
+        }
+    </script>
+</body>
+</html>
