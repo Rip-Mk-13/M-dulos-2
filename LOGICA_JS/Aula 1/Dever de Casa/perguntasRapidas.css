@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(140, 170, 31);
+    color: rgb(2, 0, 99);
+}
+
+button{
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    color: rgb(140, 170, 31);
+    background-color: rgb(2, 0, 99);
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
