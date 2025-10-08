@@ -1,0 +1,36 @@
+&& -> E(and)
+
+var cor1 == "Vermelho"
+var cor2 == "Azul"
+
+cor1 === "Vermelho" && cor2 === "Azul" -> roxo = True
+
+
+var cor1 == "Amarelo"
+var cor2 == "Azul"
+
+cor1 === "Vermelho" && cor2 === "Azul" -> roxo = False
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+clube ?
+estiver sol && domingo
+
+|| -> OU(or)
+
+clube ?
+var diaSemana = "sexta"
+
+var diaSemana === "sabado" || diaSemana === "domingo" -> False
+
+var diaSemana = "sabado"
+
+var diaSemana === "sabado" || diaSemana === "domingo" -> True
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+! -> NÃO(Not)
+
+var hjFds = false;
+
+console.log(!hjFds);
