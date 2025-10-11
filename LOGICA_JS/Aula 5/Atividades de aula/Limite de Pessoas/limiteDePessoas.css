@@ -1,0 +1,21 @@
+body{
+    background: radial-gradient(white, lightgrey, grey, rgb(52, 52, 52), black);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 600px;
+    height: 400px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: white;
+    background: radial-gradient(darkcyan, blue, darkblue, purple, blueviolet);
+    color: white;
+}

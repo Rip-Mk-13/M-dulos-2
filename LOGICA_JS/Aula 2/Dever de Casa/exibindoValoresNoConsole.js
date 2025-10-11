@@ -1,11 +1,13 @@
 function valor(){
-    var exemplo = prompt("Valor inicial")
-    // Decido colocar um valor inicial para acompanhar sua mudança de maneira mais clara
-    console.log(exemplo)
-    // A variável é exibida no console
+    var exemplo;
+    // Declaro a variável, porêm ela não têm valor
+    console.log(exemplo);
+    // A variável é exibida como "undefined" no console por não ter valor
 
-    exemplo = prompt("Valor Final")
-    // A variavel tem seu valor alterado
+    exemplo = "Valor Final";
+    // A variavel recebe um novo valor alterado
     console.log(exemplo);
     // O novo valor é exibido no console
 }
+
+valor();
