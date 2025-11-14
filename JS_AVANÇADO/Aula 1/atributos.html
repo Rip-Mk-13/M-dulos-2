@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+</head>
+<body>
+    <h2 class="classe1" id="id1" style="color: darkgoldenrod;">Teste 1</h2>
+    <p class="classe2" id="id2">Teste 2</p>
+    <p class="classe3" id="id3">Teste 3</p>
+    <div class="classe4" id="id4">Teste 4</div>
+    <p class="classe5" id="id5">Teste 5</p>
+
+    <script>
+        document.getElementById("id2").style.color = "magenta"
+        document.getElementById("id3").style.color = "blue"
+        document.getElementById("id4").style.color = "lightblue"
+
+        const arrayObjClasse3 = document.getElementsByClassName = ("classe3");
+        arrayObjClasse3[1].style.backgroundColor = "red";
+
+        // Altera todo o texto ignorando funções como o CSS
+        console.log(titulo.textContent)
+        titulo.textContent = "Doces Preferidos"
+        console.log(titulo.textContent)
+
+        // Altera o texto mas respeita o CSS
+        console.log(titulo.innerText)
+        titulo.innerText = "Doces Preferidos"
+        console.log(titulo.innerText)
+
+        console.log(titulo.innerText);
+
+        const criandoTagP = document.createElement("p");
+        criandoTagP.innerText = "Quase chegando o NATAL!"
+        document.body.appendChild(criandoTagP)
+
+    </script>
+</body>
+</html>

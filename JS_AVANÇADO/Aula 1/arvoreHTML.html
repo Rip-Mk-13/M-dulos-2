@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árvore HTML</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Bem-vindo ao módulo de JavaScript Avançado</h1>
+        <p class="nome">Descrição</p>
+        <p class="nome">Gabriela</p>
+        <p>Pedro</p>
+        <p class="nome">Emilly</p>
+        <p class="nome">Gustavo</p>
+    </div>
+
+    <script>
+        console.log(window.document);
+        console.log(document);
+
+        // Substituí o nome da página
+        document.title = "DOM"
+
+        var titulo = document.getElementById("titulo")
+        console.log(titulo)
+
+        var nome = document.getElementsByClassName("nome")
+        console.log(nome)
+        console.log(nome[1])
+    </script>
+</body>
+</html>
