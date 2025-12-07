@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos alunos no curso</title>
+</head>
+<body>
+    <h1>Cadastre os alunos</h1> <hr>
+
+    <input type="text" id="inputAluno" placeholder="Digite o nome dos alunos aqui!"> <br><br>
+    <button id="cadastrar">Cadastrar aluno</button> <br><br>
+
+    <ol id="listaAlunos"></ol>
+
+    <script>
+        const input = document.getElementById("inputAluno");
+        const cadastro = document.getElementById("cadastrar");
+        const lista = document.getElementById("listaAlunos");
+
+        cadastro.addEventListener("click", cadastrar);
+
+        function cadastrar(){
+            const nome = input.value.trim();
+
+            if(nome === ""){
+                alert("Digite um nome válido!"); return;
+            }
+
+            const li = document.createElement("li");
+            li.textContent = nome.toUpperCase();
+
+            lista.appendChild(li)
+
+            input.value = "";
+            input.focus();
+        }
+
+        // cadastrar.onclick = function() {
+        //     const texto = input.value.trim();
+
+        //     if(texto === "") return;
+
+        //     const novoAluno = document.createElement("li");
+        //     novoAluno.textContent = texto;
+
+        //     lista.appendChild(novoAluno)
+
+        //     input.value = "";
+        //     input.focus();
+        // }
+    </script>
+</body>
+</html>

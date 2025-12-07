@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <button onclick="onClick()"></button>
+
+    <p id="click"></p>
+
+    <!-- ******************************************************************** -->
+
+    <h1 id="demo" onmouseover="mouseCima()" onmouseout="mouseFora()">Passe o mouseCima</h1>
+
+    <!-- ******************************************************************** -->
+
+    Digite seu nome <input type="text">
+
+    <script>
+        function onClick(){
+            document.getElementById("click").innerHTML = "Hello World"
+
+            // var id = document.getElementById("click")
+            // id.innerHTML = "Hello World"
+        }
+
+        function mouseCima(){
+            document.getElementById("demo").style.color = "red";
+        }
+
+        function mouseFora(){
+            document.getElementById("demo").style.color = "black";
+        }
+
+        function onFocus(){
+            document.getElementById("demo").style.backgroundColor = "red";
+        }
+
+        function onFocus(){
+            var x = document.getElementById("mySelect").value 
+            document.getElementById("demo1").innerHTML = "Você selecionou: " + x
+        }   
+    </script>
+</body>
+</html>

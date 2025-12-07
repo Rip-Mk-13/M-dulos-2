@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        class contaBancaria{
+            constructor(valor) {
+                this._saldo = valor;
+            }
+        
+            get saldo() {
+                return(this.saldo)
+            }
+        
+            set saldo(novoValor) {
+                if(novoValor > 0) {
+                    this._saldo = this._saldo + novoValor
+                } else {
+                    console.error("O saldo não pode ser negativo ou nulo!")
+                }
+            }
+        }
+
+        const conta = new contaBancaria(-1000);
+        console.log(conta)
+
+        conta.saldo = 100
+        console.log(conta);
+
+        conta.saldo = 0
+        conta.saldo = -100
+
+    </script>
+</body>
+</html>

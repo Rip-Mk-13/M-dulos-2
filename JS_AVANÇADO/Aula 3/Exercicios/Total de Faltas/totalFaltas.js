@@ -1,0 +1,1 @@
+const listaAlunos = [nome, valorLogico]
