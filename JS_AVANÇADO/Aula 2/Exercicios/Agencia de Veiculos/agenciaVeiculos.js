@@ -44,15 +44,15 @@ const mostrarCarro = ({marca, modelo, ano, valorCompra, valorAtual, cor}) => {
     }
 
     return {
-    marca,
-    modelo,
-    ano,
-    valorCompra,
-    valorAtual,
-    cor,
-    lucro,
-    ipva,
-    licenciamento
+      marca,
+      modelo,
+      ano,
+      valorCompra,
+      valorAtual,
+      cor,
+      lucro,
+      ipva,
+      licenciamento
   };
 };
 
