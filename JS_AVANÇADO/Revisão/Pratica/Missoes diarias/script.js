@@ -1,4 +1,4 @@
-import { getMissao } from "./funcoesScript.js";
+import { getMissao } from "../funcoesScript.js";
 
 console.log(getMissao);
 

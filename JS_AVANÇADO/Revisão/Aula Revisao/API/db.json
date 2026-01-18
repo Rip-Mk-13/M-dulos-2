@@ -1,0 +1,25 @@
+{
+  "pokemon": [
+    {
+      "id": "1",
+      "nome": "Bulbassauro",
+      "tipo": "Planta / Veneno",
+      "nivel": "5",
+      "regiao": "Kanto"
+    },
+    {
+      "id": "2",
+      "nome": "Ivyssauro",
+      "tipo": "Planta / Veneno",
+      "nivel": "17",
+      "regiao": "Kanto"
+    },
+    {
+      "id": "3",
+      "nome": "Venussauro",
+      "tipo": "Planta / Veneno",
+      "nivel": "36",
+      "regiao": "Kanto"
+    }
+  ]
+}

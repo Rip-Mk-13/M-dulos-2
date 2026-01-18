@@ -1,0 +1,46 @@
+{
+    "prato": [
+        {
+            "nome": "sushi",
+            "restaurante": "oriente-mania",
+            "imagem": "https://djapa.com.br/wp-content/uploads/2024/09/vesoes-do-sushi.jpg",
+            "produto": "Sushi",
+            "descricao": "Prato típico oriental, composto por certos peixes preparado sem o uso de cozimento e com acompanhamentos"
+        },
+        {
+            "nome": "yakissoba",
+            "restaurante": "oriente-mania",
+            "imagem": "https://acarnequeomundoprefere.com.br/uploads/media/image/frimesa-receitas-yakisoba-de-coxao-mole-3.jpg",
+            "produto": "Yakissoba",
+            "descricao": "Macarrão oriental salteado com legumes frescos e carnes ou frutos do mar, temperado com molho especial."
+        },
+        {
+            "nome": "tempura",
+            "restaurante": "oriente-mania",
+            "imagem": "https://cdn0.tudoreceitas.com/pt/posts/6/7/2/tempura_de_legumes_crocante_1276_orig.jpg",
+            "produto": "Tempura",
+            "descricao": "Legumes e frutos do mar empanados em massa leve e fritos, resultando em uma textura crocante."
+        },
+        {
+            "nome": "gyoza",
+            "restaurante": "oriente-mania",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZT1Vi_7yqBIipjMSCUxaflph225B8LymfQ&s",
+            "produto": "Gyoza",
+            "descricao": "Pastéis japoneses recheados com carne e legumes, dourados por fora e macios por dentro."
+        },
+        {
+            "nome": "ramen",
+            "restaurante": "oriente-mania",
+            "imagem": "https://www.modernfarmhouseeats.com/wp-content/uploads/2021/03/chili-lime-shrimp-ramen-2-scaled.jpg",
+            "produto": "Ramen",
+            "descricao": "Sopa japonesa com caldo encorpado, macarrão artesanal e acompanhamentos como carne, ovo e algas."
+        },
+        {
+            "nome": "sashimi",
+            "restaurante": "oriente-mania",
+            "imagem": "https://www.oceansideseafood.com/cdn/shop/products/Premium_Variety.png?v=1741552871",
+            "produto": "Sashimi",
+            "descricao": "Fatias finas de peixe cru extremamente fresco, servidas sem arroz e com acompanhamentos tradicionais."
+        }
+    ]
+}

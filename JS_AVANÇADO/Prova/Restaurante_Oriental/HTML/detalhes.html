@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/Restaurante_Oriental/CSS/detalhes.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-menu is-active">
+            <div class="navbar-start">
+                <span class="navbar-item">ORIENTE-MANIA</span>
+                <a class="navbar-item" href="/Restaurante_Oriental/HTML/cardapio.html">Voltar ao cardápio</a>
+                <div class="navbar-item">
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <input class="input" type="text" placeholder="Buscar produto">
+                            <span class="icon is-left">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container has-text-centered">
+            <h1 class="title is-1">Escolha seu pedido</h1>
+        </div>
+    </section>
+
+    <div class="main">
+        <div class="pratos">
+            <img src="" class="produto-img">
+            <h2 class="produto-titulo"></h2>
+            <p class="produto-desc"></p>
+            <a href="/Restaurante_Oriental/HTML/detalhes.html" class="button is-info">Realizar pedido</a>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="form">
+        <h3>Receba promoções</h3>
+        <input class="input" type="text" placeholder="Digite Seu E-mail" id="email">
+        <label class="checkbox" id="checkboxLabel">
+            <input type="checkbox" id="checkboxDeTermos"/>
+            Aceito os Termos de Uso
+        </label> <br>
+        <div class="button" id="btnEnviar">Enviar</div>
+    </div>
+    
+</body>
+<script src="/Restaurante_Oriental/JS/detalhes.js" defer></script>
+</html>
