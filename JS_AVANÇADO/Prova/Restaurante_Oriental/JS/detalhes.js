@@ -8,7 +8,7 @@ const nomePrato = params.get("nome");
 // GET - API FAKE
 
 const getPrato = async () => {
-    const resposta = await fetch("http://localhost:3000/prato");
+    const resposta = await fetch("https://tech4japa.fly.dev/produtos/prato");
     return await resposta.json();
 };
 
