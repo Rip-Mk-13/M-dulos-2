@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.texto-pagina {
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    min-width: 160px;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    width: 90%;
+    height: 90%;
+    font-size: 32px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover:enabled {
+    background-color: #43a047;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+}
+
+span {
+    font-size: 28px;
+    font-weight: bold;
+}

@@ -1,0 +1,74 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "As Branquelas",
+      "genero": "Comédia",
+      "nota": 9.2,
+      "ano": 2004
+    },
+    {
+      "id": 2,
+      "titulo": "Silent Hill",
+      "genero": "Terror",
+      "nota": 8.7,
+      "ano": 2006
+    },
+    {
+      "id": 3,
+      "titulo": "O Jardim Secreto",
+      "genero": "Drama",
+      "nota": 8.5,
+      "ano": 1993
+    },
+    {
+      "id": 4,
+      "titulo": "Interestelar",
+      "genero": "Ficção Científica",
+      "nota": 9.6,
+      "ano": 2014
+    },
+    {
+      "id": 5,
+      "titulo": "Clube da Luta",
+      "genero": "Drama",
+      "nota": 9.4,
+      "ano": 1999
+    },
+    {
+      "id": 6,
+      "titulo": "Matrix",
+      "genero": "Ação",
+      "nota": 9.3,
+      "ano": 1999
+    },
+    {
+      "id": 7,
+      "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+      "genero": "Fantasia",
+      "nota": 9.5,
+      "ano": 2001
+    },
+    {
+      "id": 8,
+      "titulo": "Parasita",
+      "genero": "Suspense",
+      "nota": 9.1,
+      "ano": 2019
+    },
+    {
+      "id": 9,
+      "titulo": "Coringa",
+      "genero": "Drama",
+      "nota": 8.9,
+      "ano": 2019
+    },
+    {
+      "id": 10,
+      "titulo": "Vingadores: Ultimato",
+      "genero": "Ação",
+      "nota": 9.0,
+      "ano": 2019
+    }
+  ]
+}
